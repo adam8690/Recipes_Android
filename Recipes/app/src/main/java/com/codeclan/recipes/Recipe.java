@@ -41,4 +41,11 @@ public class Recipe {
     public void setIngredients(ArrayList<Ingredient> ingredients) {
         this.ingredients = ingredients;
     }
+
+    public void addListOfIngredients(ArrayList<Ingredient> list) {
+        for (Ingredient ingredient : list) {
+            this.ingredients.add(ingredient);
+        }
+    }
+
 }

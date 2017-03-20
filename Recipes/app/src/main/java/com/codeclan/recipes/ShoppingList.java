@@ -21,4 +21,15 @@ public class ShoppingList {
     public void setShoppingList(ArrayList<Ingredient> shoppingList) {
         this.shoppingList = shoppingList;
     }
+
+
+    public void addListToShoppingList(ArrayList <Ingredient> list){
+
+        for(Ingredient ingredient : list ){
+            shoppingList.add(ingredient);
+        }
+
+    }
+
+
 }
